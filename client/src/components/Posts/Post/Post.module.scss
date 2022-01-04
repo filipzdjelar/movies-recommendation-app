@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 6px;
+  min-width: 200px;
+  height: fit-content;
+  background: #caf0f8;
+  margin: 10px;
+  h2 {
+    text-align: center;
+    color: #2b2d42;
+  }
+  img {
+    padding: 20px 0;
+  }
+  p {
+    max-width: 80ch;
+  }
+}
