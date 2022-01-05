@@ -1,0 +1,31 @@
+$small-device: 576px;
+
+@mixin small-device {
+  @media (min-width: #{$small-device}) {
+    @content;
+  }
+}
+
+$medium-device: 768px;
+
+@mixin medium-device {
+  @media (min-width: #{$medium-device}) {
+    @content;
+  }
+}
+
+$large-device: 992px;
+
+@mixin large-device {
+  @media (min-width: #{$large-device}) {
+    @content;
+  }
+}
+
+$extra-large-device: 1200px;
+
+@mixin laptop {
+  @media (min-width: #{$extra-large-device}) {
+    @content;
+  }
+}
