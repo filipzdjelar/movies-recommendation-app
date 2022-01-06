@@ -1,6 +1,6 @@
-import "./Posts.module.scss";
-import Post from "./Post/Post";
-import { useSelector } from "react-redux";
+import './Posts.module.scss';
+import Post from './Post/Post';
+import { useSelector } from 'react-redux';
 
 const Posts = () => {
   const posts = useSelector((state) => state.posts);

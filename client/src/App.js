@@ -1,9 +1,9 @@
-import Form from "./components/Form/Form";
-import Posts from "./components/Posts/Posts";
-import classes from "./styles/app.module.scss";
-import { useDispatch } from "react-redux";
-import { useEffect } from "react";
-import { getPosts } from "./actions/posts";
+import Form from './components/Form/Form';
+import Posts from './components/Posts/Posts';
+import classes from './styles/app.module.scss';
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import { getPosts } from './actions/posts';
 
 const App = () => {
   const dispatch = useDispatch();
